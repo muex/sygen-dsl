@@ -1,20 +1,31 @@
 {
-	"Bundle" : "Blog"
-	{
-	    "Blog": {
-	        "type": "object",
-	        "properties": [
-	            {
-	                "Id": {
-	                    "type": "object",
-	                    "AggregationKind": "composite",
-	                    "MultiplicityElement": {
-	                        "lower": 0,
-	                        "upper": "n"
-	                    }
-	                }
-	            }
-	        ]
-	    }
-	}
+    "Bundlename": "Blog",
+    "Classes": {
+        "Blog": {
+            "type": "object",
+            "properties": [
+                {
+                    "Id": {
+                        "type": "integer",
+                        "stragegy": "auto"
+                    },
+                    "Title": {
+                        "type": "string"
+                    },
+                    "Subtitle": {
+                        "type": "string"
+                    },
+                    "Description": {
+                        "type": "text"
+                    }
+                }
+            ]
+        },
+        "Post": {
+            "type": "object",
+            "properties": [
+                {}
+            ]
+        }
+    }
 }
