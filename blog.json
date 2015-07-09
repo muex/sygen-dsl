@@ -1,0 +1,20 @@
+{
+	"Bundle" : "Blog"
+	{
+	    "Blog": {
+	        "type": "object",
+	        "properties": [
+	            {
+	                "Id": {
+	                    "type": "object",
+	                    "AggregationKind": "composite",
+	                    "MultiplicityElement": {
+	                        "lower": 0,
+	                        "upper": "n"
+	                    }
+	                }
+	            }
+	        ]
+	    }
+	}
+}
