@@ -7,7 +7,7 @@
                 {
                     "Id": {
                         "type": "integer",
-                        "stragegy": "auto"
+                        "strategy": "auto"
                     },
                     "Title": {
                         "type": "string"
